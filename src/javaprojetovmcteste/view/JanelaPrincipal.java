@@ -121,7 +121,7 @@ public class JanelaPrincipal extends javax.swing.JFrame {
         PessoaController pesController = new PessoaController();
         sucesso = pesController.cadastraPessoa(jTextEmail.getText(),jTextEmail.getText(),jTextCPF.getText());
         if (sucesso) {
-            JOptionPane.showMessageDialog(null,"Pessoa criado com sucesso");    
+            JOptionPane.showMessageDialog(null,"Pessoa criado com sucesso! Parabens!");    
         }else{
             JOptionPane.showMessageDialog(null,"Algo deu de errado"); 
         }
