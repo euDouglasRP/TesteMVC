@@ -5,9 +5,7 @@ import javax.swing.JOptionPane;
 
 //teste novo comentario 00
 //teste novo comentario 01
-//teste novo comentario 02
-//teste novo comentario 03
-//teste novo comentario 04
+
 public class Pessoa {
     
     private String nome;
